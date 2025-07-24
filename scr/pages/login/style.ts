@@ -4,6 +4,9 @@ import { themes } from "../../global/themes";
 export const style = StyleSheet.create({
     container: { 
         flex: 1,
+        padding: 10,
+        paddingTop: 50,
+        paddingBottom: 20,
         alignItems: 'center',
         justifyContent: 'center',
         backgroundColor: themes.Colors.background,
@@ -19,13 +22,14 @@ export const style = StyleSheet.create({
     boxmiddle: {
         height: Dimensions.get('window').height / 4,
         width: '100%',
+        justifyContent: 'center',
        // backgroundColor: 'green',
     },
     boxbottom: {
        height: Dimensions.get('window').height / 3,
         width: '100%',
         alignItems: 'center',   
-        justifyContent: 'center',
+        //justifyContent: 'center',
         //backgroundColor: 'blue',
     },
     logo: {
@@ -34,13 +38,10 @@ export const style = StyleSheet.create({
        justifyContent: 'center',
         
         borderRadius: 150,
-        borderWidth: 7,
+        borderWidth: 4,
         borderColor: themes.Colors.primary,
         marginTop: 10,
         backgroundColor: 'white',
-    },
-    logoContain: {
-        
     },
     logoText: {
         fontWeight: 'bold',
@@ -59,7 +60,6 @@ export const style = StyleSheet.create({
         fontWeight: 'bold',
     },
     Boxinput:{ 
-        
         height: 50,
         flexDirection: 'row',
         alignItems: 'center',
@@ -69,8 +69,60 @@ export const style = StyleSheet.create({
         borderColor: themes.Colors.primary,
         backgroundColor: 'white',
         borderRadius: 25,
-        margin: 10,
-        paddingHorizontal: 10,
+        margin: 5,
+        paddingHorizontal: 20,
+                shadowColor: "#000",
+                shadowOffset: {
+                    width: 0,
+                    height: 3,
+                },
+                shadowOpacity: 0.27,
+                shadowRadius: 4.65,
+                elevation: 6,
+    },
+    input: {
+       height: 50,
+        flex: 1,
+        paddingHorizontal: 20,
+        fontSize: 18,
+        //backgroundColor: 'black',
+        marginRight: 25,
+        borderRadius: 25,
+        width: '120%',
+        //color: 'black',
+        marginLeft: -24,
+        fontWeight: 'bold',
+        color: themes.Colors.background,
+    },
+    button: {
+        marginTop: 20,
+        width: 200, 
+        height: 75,
+        backgroundColor: themes.Colors.primary,
+        borderRadius: 25,
+        alignItems: 'center',
+        justifyContent: 'center',
+        flexDirection: 'row',
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 6,
+        },
+        shadowOpacity: 0.39,
+        shadowRadius: 8.30,
 
+        elevation: 13,
+     },
+    buttonText: {
+        color: 'white',
+        fontSize: 20,
+        fontWeight: 'bold',
+        marginRight: 15,
     }
-}); 
+
+
+
+
+
+}
+);
