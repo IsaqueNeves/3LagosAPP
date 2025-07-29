@@ -80,20 +80,6 @@ export const style = StyleSheet.create({
                 shadowRadius: 4.65,
                 elevation: 6,
     },
-    input: {
-       height: 50,
-        flex: 1,
-        paddingHorizontal: 20,
-        fontSize: 18,
-        //backgroundColor: 'black',
-        marginRight: 25,
-        borderRadius: 25,
-        width: '120%',
-        //color: 'black',
-        marginLeft: -24,
-        fontWeight: 'bold',
-        color: themes.Colors.background,
-    },
     button: {
         marginTop: 20,
         width: 200, 
@@ -112,17 +98,14 @@ export const style = StyleSheet.create({
         shadowRadius: 8.30,
 
         elevation: 13,
-     },
+    },
+
     buttonText: {
         color: 'white',
         fontSize: 20,
         fontWeight: 'bold',
         marginRight: 15,
     }
-
-
-
-
 
 }
 );

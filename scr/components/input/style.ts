@@ -38,11 +38,18 @@ export const style = StyleSheet.create({
                 color: themes.Colors.background,
          },
 
-        titleinput: {
-        marginLeft: 30,
-        color: 'white',
-        marginTop:15,
-        fontSize: 20,
-        fontWeight: 'bold',
-        }
+                titleinput: 
+                {
+                marginLeft: 30,
+                color: 'white',
+                marginTop:15,
+                fontSize: 20,
+                fontWeight: 'bold',
+                },
+                
+                icon: 
+                {
+                width : '100%'
+                },
+                
 })
